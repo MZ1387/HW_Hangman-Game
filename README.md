@@ -22,11 +22,11 @@ In this assignment, I created a Hangman style game with a Solar System theme tha
 ## Concepts Implemented
 
 - Dynamically updated HTML powered by JavaScript code
-- Manipulate HTML elements based on user input
+- Manipulated HTML elements based on user input
 
 
 ## Code Explanation
 - User "launches" the game and is prompted to complete each mission by trying to guess the missing word
 - If the user completes a predefined number of "missions" then the user wins
-- If the user "runs out of fuel" by guessing to many letters wrong then the game is over.
-- The goal is to complete all your "mission" while still having "fuel"
+- If the user "runs out of fuel" by guessing to many letters wrong the game is over.
+- The goal is to complete all of your "missions" without running out of "fuel"
