@@ -1,5 +1,5 @@
 # HW - {Hangman-Game}
-In this assignment, I created a Hangman Game that dynamically updates HTML powered by JavaScript code.
+In this assignment, I created a Hangman style game with a Solar System theme that dynamically updates HTML elements through JavaScript based on user input.
 
 
 ## Live Link (GitHub Pages)
@@ -22,7 +22,11 @@ In this assignment, I created a Hangman Game that dynamically updates HTML power
 ## Concepts Implemented
 
 - Dynamically updated HTML powered by JavaScript code
+- Manipulate HTML elements based on user input
 
 
-## Code Explaination
-- 
+## Code Explanation
+- User "launches" the game and is prompted to complete each mission by trying to guess the missing word
+- If the user completes a predefined number of "missions" then the user wins
+- If the user "runs out of fuel" by guessing to many letters wrong then the game is over.
+- The goal is to complete all your "mission" while still having "fuel"
