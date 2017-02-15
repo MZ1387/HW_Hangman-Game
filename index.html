@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman: Solar System</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-default navigation-clean navbar-fixed-bottom">
+    <div class="container">
+        <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Hangman: Solar System</a>
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li role="presentation"><a href="#" id="launch" onclick="newGame()">LAUNCH</a></li>
+                <li role="presentation"><a href="#" id="wins" class="score">Missions Completed: 0</a></li>
+                <li role="presentation"><a href="#" id="guessesLeft" class="score">Fuel: 100%</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    </div>
+    <div class="container-fluid" id="main">
+        <div class="row" id="main-row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="jumbotron">
+                    <h2>Mission: </h2>
+                    <p id="missingWords">launch to begin</p>
+                    <p class="text-center" id="guessedLetters"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
