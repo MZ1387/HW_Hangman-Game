@@ -72,7 +72,7 @@ function nextLevel() {
 document.onkeyup = function(event) {
     // condition for user input
     if (underscores.length == 0) {
-        targetDiv.innerHTML = "launch to begin";
+        targetDiv.innerHTML = "execute the launch command below to proceed";
         //  wrongLettersParagraph.innerHTML = "";
         // if the game hasn't started the guesses will not go down
         guessesLeft.innerHTML = ("Fuel: " + guessesLeftCount + "%");
